@@ -11,4 +11,4 @@ app.get("/test", (req, res) => {
     res.send("API is Online.");
 })
 
-app.listen(process.env.apiPort, () => console.log(`API Listening on Port: ${process.env.apiPort}`));
+app.listen(process.env.port, () => console.log(`API Listening on Port: ${process.env.port}`));

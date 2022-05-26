@@ -2,7 +2,7 @@ import bodyParser from "body-parser";
 import express from "express";
 
 const app = express();
-const port = 80;
+const port = 3333;
 
 app.use(bodyParser.json());
 app.use(bodyParser.raw({ type: "application/vnd.custom-type" }));

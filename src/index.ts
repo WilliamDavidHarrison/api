@@ -12,6 +12,10 @@ app.get("/", async (req, res) => {
   res.redirect("https://williamdavidharrison.com.au");
 })
 
+app.get("/test", async (req, res) => {
+  res.send("API is Online!");
+})
+
 app.listen(port, () => {
   console.log(`API Listening on Port: ${port}`);
 })

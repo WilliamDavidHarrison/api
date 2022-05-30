@@ -1,4 +1,3 @@
-import bodyParser from "body-parser";
 import express from "express";
 
 const router = require("./util/router");

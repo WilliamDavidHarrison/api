@@ -8,3 +8,6 @@ William Harrison's API
 /status
 /test
 ```
+
+## Notes
+This API has not been deployed yet.

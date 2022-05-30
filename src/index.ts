@@ -3,7 +3,7 @@ import bodyParser from "body-parser";
 
 const app = express();
 
-const router = require("./util/router.js");
+const router = require("./util/router");
 const config = require("./config.json");
 
 app.use("/", router);

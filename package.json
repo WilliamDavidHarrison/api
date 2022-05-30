@@ -6,7 +6,7 @@
   "author": "William Harrison",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/index.js",
+    "dev": "nodemon src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },

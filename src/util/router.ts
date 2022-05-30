@@ -1,8 +1,8 @@
-const { Router } = require("express");
-const bodyParser = require("body-parser");
+import { Router } from "express";
+import bodyParser  from "body-parser";
 
 const router = Router();
-const routes = require("../helpers/routes");
+const routes = require("../helpers/routes.js");
 
 router.use(bodyParser.json());
 router.use(bodyParser.raw({ type: "application/vnd.custom-type" }));

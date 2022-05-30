@@ -1,5 +1,7 @@
 import express from "express";
 
+const app = express();
+
 const router = require("./util/router");
 const config = require("./config.json");
 

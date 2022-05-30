@@ -4,10 +4,6 @@ const bodyParser = require("body-parser");
 const router = Router();
 const routes = require("../helpers/routes");
 
-router.use(bodyParser.json());
-router.use(bodyParser.raw({ type: "application/vnd.custom-type" }));
-router.use(bodyParser.text({ type: "text/html" }));
-
 router.get("/", async (req, res) => {
     res.redirect("https://williamdavidharrison.com.au");
 })

@@ -8,9 +8,3 @@ William Harrison's API
 /status
 /test
 ```
-
-## Planned Changes
-```
-Move to JavaScript
-Add Endpoint handler
-```

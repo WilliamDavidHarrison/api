@@ -10,4 +10,4 @@ William Harrison's API
 ```
 
 ## Notes
-This API has not been deployed yet.
+API is not currently active.
